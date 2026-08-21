@@ -2,6 +2,8 @@ name: Stake Top 50
 
 on:
   workflow_dispatch:
+  push:
+    branches: [master]
   schedule:
     - cron: '0 * * * *'
 
